@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    padding: 0;
+    font: 12pt;
+	font-family:Arial, Helvetica, sans-serif;	
+}
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.page {
+    width: 793.7px;
+    min-height: 1043px;
+	margin:0 auto;
+}
+//.logo { margin:41.5px 0px 0px 41.5px; padding:0px; position:absolute;}
+.top_slogan { font-size:10px; text-transform:uppercase; position:absolute; margin:30.2px 0px 0px 623.6px;} 
+.to_address{margin:80.8px 0px 0px 351.4px; position:absolute; width:378px; height:177.6px; border:0px solid #222; font-size:12px; padding:11.3px 18.8px; float:left;}
+.back-img{ margin:-10px 0px 0px 80px; position:absolute;}
+.addres{ margin:0px 0px 0px 0px; position:absolute; float:left; width:332.5px; height:143.6px; text-align:justify;}
+.left_add{ margin:430.8px 0px 0px 56.6px; position:absolute; border:1px solid #222; width:313.7px; height:200.3px;}
+.left_add img{ margin:20px 0px 0px 5px}
+.right_add{  margin:430.8px 0px 0px 425px; position:absolute; border:1px solid #222; width:311.8px; height:200.3px;}
+.right_add img{ margin:20px 0px 0px 0px}
+.branch_tkt{ margin:640.8px 0px 0px 58.58px; position:absolute; font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; width:680.3px; height:86.9px;}
+
+.clr { clear:both;}
+
+
+@page {
+    size: A4;
+    margin: 0px;
+	margin-top:20px;
+	margin-bottom:20px;
+	
+}
+@media print {
+    .page {
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+    }
+	table
+	{
+	
+	}
+table tr td div
+{
+/*display: inline-block;*/
+width: 110px;
+font-size: 10px;
+}
+.copy
+{
+	float:right;
+	font-size:6px;
+}
+table#tablereq tr td label
+{
+float:left;
+display:inline-block;
+font-size: 10px;
+font-weight: normal;
+color: #000;
+line-height: 1;
+width: 100px;
+}
+table#tablereq .detai
+{
+margin-top:30px !important;
+}
+table#tablereq tr td span
+{
+float:right;
+padding-right:10px;
+display:inline-block;
+}
+table#class tr td 
+{
+border:1px solid gray;
+padding-left:10px;
+}
+table#class tr td span 
+{
+display:none;
+}
+
+table#class tr td.noborder
+{
+border:none;
+padding-top:30px;
+}
+#spare_table
+{
+width:60%;
+margin-left:5%;
+margin-bottom:0px;
+}
+#spare_table tr.spare_tr td
+{
+background: #055E87 none repeat scroll 0% 0%;
+border:1px solid gray;
+padding: 0px;
+color: #FFF;
+}
+#spare_table tr td {
+    border:1px solid gray;
+    text-align: center;
+	height: 15px;
+	font-size:10px;
+}
+#spare_table tr.spare_tr td
+{
+font-weight:bold;
+}
+.table1
+{
+margin-top: -20px;
+}
+.com
+{
+font-size:13px;
+}
+.class
+{
+margin-bottom:20px;
+}
+#printableArea #printheader .left
+{
+	width:65%;
+	float:left;
+	height:100px;
+}
+#printableArea #printheader .right p
+{
+	margin: 0px;
+}
+#printableArea #printheader .left p
+{
+	margin: 0px;
+}
+   #printableArea #printheader .right
+{
+	width:30%;	
+	float:right;
+	height:100px;
+	border-left:1px solid black;
+}
+p
+{
+margin:0px;
+
+}
+.hh
+{
+width:99%;
+}
+.hh tr td
+{
+border: 1px solid #808080;
+height:25px;
+font-size: 11px;
+padding:0px 5px;
+}
+.tableadd tr td label{
+    font-size: 13px;
+    margin-top:1%;
+	margin-left: 3%;
+}
+.invoice_print
+{
+height:100px;
+}
+
+#scissors div img{
+  height: 15px;
+width: 2%;
+	background-size: 15px;
+    margin: auto auto;
+    /*background-image: url('http://i.stack.imgur.com/cXciH.png');
+    background-repeat: no-repeat;
+    background-position: center;*/
+    position: relative;
+	display: inline-block;
+margin-top: -25px;
+	
+}
+#scissors div {
+    position: relative;
+    top: 50%;
+    border-top: 1px dashed black;
+   text-align: center;
+}
+.print_screen
+{
+	height:500px;
+}
+/*.tableadd tr td div
+{
+	display:inline-block;
+	width: 210px !important;
+	
+}*/
+
+table tr td input
+{
+border:none;
+}
+
+
+
+}
+
+
+
+.branch_tkt p {font-size:16px; margin:0 }
+
+
+
+.table_5{ font-size:12px; margin-top:4px;}
+h2{ font-family:Arial, Helvetica, sans-serif; font-size:16px; position:absolute; margin:720.4px 0px 0px 247.5px; text-align:center; text-decoration:underline;}
+.table_11{ font-size:12px; margin:765.9px 0px 0px 58.5px; position:absolute;  font-weight:bold; width:680.3px; height:151.1px}
+.table_2{ font-size:12px; margin:1050px 0px 0px 58.50px; position:absolute;}
+.para{ font-family:Arial, Helvetica, sans-serif; font-size:12px; position:absolute; margin:925px 0px 0px 150px; font-weight:bold;}
+
+

@@ -1,0 +1,18 @@
+/* 
+    Document   : invoice_pdf
+    Created on : Oct 18, 2013, 3:49:02 PM
+    Author     : jesmag5
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.top_3 h2{ color:#000; font-size:14px; font-weight:bold; line-height:0px; padding:0; margin:0;}
+.top_3 p{ padding:0px; line-height:2px; font-size:12px;}
+.invoice_logo_right p{ line-height:18px; padding:0; margin:0;}
+.invoice_logo{ height:100px;}
+.address_invoice{ font-size:12px;}
+
+.top_3{ margin-top:-30px;}
+.address_invoice{ font-size:12px;}
+.terms_box p{ padding:0; margin:0; line-height:0px; font-size:12px;}
+.invoice_bot_cont p{ font-size:12px; line-height:0px; padding:0; margin:0;}

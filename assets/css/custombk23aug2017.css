@@ -1,0 +1,76 @@
+
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:700);
+
+.title {
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+}
+
+header {
+    padding:2em 0;
+}
+
+.btn-default {
+    background: #fff !important;
+}
+
+header, footer, h2, a,.picker-wrapper, ul {
+  transition: background-color 0.5s ease;
+}
+.nav > li > a {
+    background: none;
+    border-left: 0px solid #303f9f;
+    border-right: 0px solid #303f9f;
+}
+
+header, footer{
+    color: white;
+    background: #dbd0e1;
+/*    background-image: url("background.png");*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.51);
+}
+
+h2{
+    color: #000;
+/*    background-image: url("background.png");*/
+}
+
+hr {
+    border-style: solid;
+    border-width: 1px;
+    color: #303F9F;
+}
+
+h1.title {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.4em;
+}
+
+/* picker */
+.color-picker {
+    background: rgba(255, 255, 255, 0.75);
+    padding: 10px;
+    border: 1px solid rgba(203, 203, 203, 0.6);
+    border-radius: 2px;
+}
+
+.color-picker > div {
+    width: 40px;
+    display: inline-block;
+    height: 40px;
+    margin: 5px;
+    border-radius: 100%;
+    opacity: 0.7;
+}
+
+.picker-wrapper {
+    padding: 20px;
+}
+
+.color-picker > div:hover {
+    opacity: 1;
+}
